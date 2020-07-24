@@ -4,6 +4,9 @@
 
 To see and test the app go there : https://room-reservation-front.herokuapp.com/
 
+![Capture](/src/assets/capture.png)
+
+
 ## Project setup
 ```
 npm install
@@ -11,7 +14,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm start
+npm run serve
 ```
 
 ### Compiles and minifies for production
