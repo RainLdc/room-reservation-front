@@ -1,5 +1,7 @@
 # Room reservation
 
+## This is a [PWA](https://www.goodbarber.com/blog/pwas-progressive-web-apps-explained-a825/) APP
+
 To see and test the app go there : https://room-reservation-front.herokuapp.com/
 
 ## Project setup
