@@ -47,16 +47,32 @@
             </router-link>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/chambres" class="nav-link">Chambres</router-link>
+            <router-link to="/chambres" class="nav-link">
+              <v-btn text>
+                <v-icon left>mdi-account</v-icon>Détails Clients
+              </v-btn>
+            </router-link>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/detailschambres">Détails CHambres</router-link>
+            <router-link to="/detailschambres">
+              <v-btn text>
+                <v-icon left>mdi-home</v-icon>Détails Chambre
+              </v-btn>
+            </router-link>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/clients">CLients</router-link>
+            <router-link to="/clients">
+              <v-btn text>
+                <v-icon left>mdi-account</v-icon>Clients
+              </v-btn>
+            </router-link>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/detailsclients">Détails CLients</router-link>
+            <router-link to="/detailsclients">
+              <v-btn text>
+                <v-icon left>mdi-account</v-icon>Détails Clients
+              </v-btn>
+            </router-link>
           </v-list-item>
         </v-list-item-group>
       </v-list>

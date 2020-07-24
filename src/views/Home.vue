@@ -10,10 +10,9 @@
 
     <section>
       <v-row align="center" justify="center">
-        <v-img
-          max-width="900"
-          src="../assets/home.jpeg"
-        ></v-img>
+        <v-col md="4">
+          <v-img src="../assets/home.jpeg"></v-img>
+        </v-col>
       </v-row>
     </section>
   </v-container>
