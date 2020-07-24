@@ -1,4 +1,6 @@
-# room-front
+# Room reservation
+
+To see and test the app go there : https://room-reservation-front.herokuapp.com/
 
 ## Project setup
 ```
