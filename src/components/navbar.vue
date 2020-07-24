@@ -4,35 +4,25 @@
       <v-app-bar-nav-icon v-if="isMobile" @click="drawer = true"></v-app-bar-nav-icon>
 
       <div v-if="!isMobile">
-        <router-link to="/">
-          <v-btn text>
-            <v-icon left>mdi-home</v-icon>Home
-          </v-btn>
-        </router-link>
+        <v-btn to="/" text>
+          <v-icon left>mdi-home</v-icon>Home
+        </v-btn>
       </div>
       <v-spacer></v-spacer>
 
       <div v-if="!isMobile">
-        <router-link to="/chambres">
-          <v-btn text>
-            <v-icon left>mdi-home</v-icon>Chambre
-          </v-btn>
-        </router-link>
-        <router-link to="/detailschambres">
-          <v-btn text>
-            <v-icon left>mdi-home</v-icon>Détails Chambre
-          </v-btn>
-        </router-link>
-        <router-link to="/clients">
-          <v-btn text>
-            <v-icon left>mdi-account</v-icon>Clients
-          </v-btn>
-        </router-link>
-        <router-link to="/detailsclients">
-          <v-btn text>
-            <v-icon left>mdi-account</v-icon>Détails Clients
-          </v-btn>
-        </router-link>
+        <v-btn to="/chambres" text>
+          <v-icon left>mdi-home</v-icon>Chambre
+        </v-btn>
+        <v-btn to="/detailschambres" text>
+          <v-icon left>mdi-home</v-icon>Détails Chambre
+        </v-btn>
+        <v-btn to="/clients" text>
+          <v-icon left>mdi-account</v-icon>Clients
+        </v-btn>
+        <v-btn to="/detailsclients" text>
+          <v-icon left>mdi-account</v-icon>Détails Clients
+        </v-btn>
       </div>
     </v-app-bar>
 
@@ -40,39 +30,29 @@
       <v-list nav dense>
         <v-list-item-group active-class="deep-purple--text text--accent-4">
           <v-list-item>
-            <router-link to="/">
-              <v-btn text>
-                <v-icon left>mdi-home</v-icon>Room Reservation
-              </v-btn>
-            </router-link>
+            <v-btn to="/" text>
+              <v-icon left>mdi-home</v-icon>Home
+            </v-btn>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/chambres" class="nav-link">
-              <v-btn text>
-                <v-icon left>mdi-account</v-icon>Détails Clients
-              </v-btn>
-            </router-link>
+            <v-btn to="/chambres" text>
+              <v-icon left>mdi-account</v-icon>Chambres
+            </v-btn>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/detailschambres">
-              <v-btn text>
-                <v-icon left>mdi-home</v-icon>Détails Chambre
-              </v-btn>
-            </router-link>
+            <v-btn to="/detailschambres" text>
+              <v-icon left>mdi-home</v-icon>Détails Chambre
+            </v-btn>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/clients">
-              <v-btn text>
-                <v-icon left>mdi-account</v-icon>Clients
-              </v-btn>
-            </router-link>
+            <v-btn to="/clients" text>
+              <v-icon left>mdi-account</v-icon>Clients
+            </v-btn>
           </v-list-item>
           <v-list-item class="nav-item">
-            <router-link to="/detailsclients">
-              <v-btn text>
-                <v-icon left>mdi-account</v-icon>Détails Clients
-              </v-btn>
-            </router-link>
+            <v-btn to="/detailsclients" text>
+              <v-icon left>mdi-account</v-icon>Détails Clients
+            </v-btn>
           </v-list-item>
         </v-list-item-group>
       </v-list>
